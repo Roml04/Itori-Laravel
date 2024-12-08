@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+body {
+    margin: 0 4.375rem;
+}
+
+:root {
+    font-family: Inter;
+
+    --headline-size: 5rem;
+    --subheadline-size: 2rem;
+    --heading1-size: 2rem; 
+    --heading2-size: 1.5rem;
+    --paragraph-size: 1.125rem;
+    --navfont-size: 1rem;
+}
+
+h1 {
+    font-size: var(--heading1-size);
+}
+
+p {
+    font-size: var(--paragraph-size);
+}
+
+.nav-font {
+    font-size: var(--navfont-size);
+}
