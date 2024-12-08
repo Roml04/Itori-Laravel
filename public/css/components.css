@@ -13,7 +13,42 @@ header * {
     gap: 1.25rem;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+.nav-list {
+    gap: 2rem;
+}
+
+/* FOOTER */
+
+.footer > * {
+    display: flex;
+}
+
+.link-containers {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.link-copyright-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BUTTON */
+
+.button {
+    padding: 1.45em 3.8em;
+    border-radius: 100rem;
+
+    width: fit-content;
+}
+
+.button-font {
+    font-family: Inter;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.125rem;
+
+    color: var(--white-fonts);
+    padding: 0;
+    margin: 0;
 }

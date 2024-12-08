@@ -3,8 +3,9 @@
     src: url('../fonts/Inter-Regular.ttf');
 }
 
-body {
-    margin: 0 4.375rem;
+@font-face {
+    font-family: Inter-Bold;
+    src: url('../fonts/Inter-Bold.ttf');
 }
 
 :root {
@@ -16,14 +17,91 @@ body {
     --heading2-size: 1.5rem;
     --paragraph-size: 1.125rem;
     --navfont-size: 1rem;
+
+    --primary-shapes: #452D22;
+    --secondary-shapes: #000000;
+    --tertiary-shapes: #5C3F32;
+
+    --white-fonts: #FFFFFF;
+}
+
+body {
+    margin: 0;
+}
+
+.headline {
+    font-family: Inter-Bold;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.subheadline {
+    font-size: 2rem;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
 }
 
 h1 {
     font-size: var(--heading1-size);
 }
 
+h2 {
+    font-size: var(--heading2-size);
+}
+
 p {
     font-size: var(--paragraph-size);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+
+    background-color: var(--tertiary-shapes);
+
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+section, 
+header, 
+footer {
+    margin: 0 4.375rem;
+}
+
+header {
+    padding: 2.5rem 0 4.375rem 0;
+}
+
+section {
+    padding-bottom: 10rem;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    height: 1.5px;
+    background-color: #000000;
 }
 
 .nav-font {

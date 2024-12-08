@@ -1,0 +1,30 @@
+.banner-section {
+    display: flex;
+    margin: 0 4.375rem 0 0;
+
+    gap: 5rem;
+}
+
+.banner-img {
+    display: flex;
+    aspect-ratio: 3/4;
+
+    object-fit: cover;
+    object-position: 0 70%;
+
+    max-height: 40rem;
+    width: 100%;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+    padding: 2.5rem 0;
+    gap: 2.5rem;
+
+    max-width: 37%;
+}
+
